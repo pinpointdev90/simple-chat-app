@@ -1,7 +1,7 @@
 {
-  "name": "chat-app-backend",
+  "name": "simple-chat-app",
   "version": "1.0.0",
-  "description": "chat-app-backend: node + express + typescript + mysql (sequelize)",
+  "description": "simple-chat-app: node + express + typescript + mysql (sequelize)",
   "main": "app.ts",
   "scripts": {
     "start": "node dist/app.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diamond9159/chat-app.git"
+    "url": "https://github.com/pinpointdev90/simple-chat-app"
   },
   "keywords": [
     "nodeJs",
@@ -24,12 +24,12 @@
     "socket.io",
     "chat"
   ],
-  "author": "diamond9159",
+  "author": "pinpointdev90",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diamond9159/chat-app/issues"
+    "url": "https://github.com/pinpointdev90/simple-chat-app/issues"
   },
-  "homepage": "https://github.com/diamond9159/chat-app#readme",
+  "homepage": "https://github.com/pinpointdev90/simple-chat-app#readme",
   "dependencies": {
     "@types/bcryptjs": "^2.4.3",
     "@types/body-parser": "^1.19.2",
