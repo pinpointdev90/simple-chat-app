@@ -1,17 +1,17 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from '@reduxjs/toolkit';
 
 const userSlice = createSlice({
-    name: "users",
-    initialState: {
-        users: [],
-        currentUser: {}
-    }, 
-    reducers: {
-        setCurrentUser: (state, action) => {
-            state.currentUser = action.payload;
-        }
+  name: 'users',
+  initialState: {
+    users: [],
+    currentUser: {}
+  },
+  reducers: {
+    setCurrentUser: (state, action) => {
+      state.currentUser = action.payload;
     }
-})
+  }
+});
 
-export const {setCurrentUser} = userSlice.actions;
-export default userSlice.reducer
+export const { setCurrentUser } = userSlice.actions;
+export default userSlice.reducer;

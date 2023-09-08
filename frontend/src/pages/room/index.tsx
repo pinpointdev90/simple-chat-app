@@ -1,5 +1,5 @@
-import { ChatRoom } from "../../components/rooms"
+import { ChatRoom } from '../../components/rooms';
 
 export const RoomPage = () => {
-    return <ChatRoom />
-}
+  return <ChatRoom />;
+};

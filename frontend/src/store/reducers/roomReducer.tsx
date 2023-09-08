@@ -1,16 +1,16 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice } from '@reduxjs/toolkit';
 
 const roomSlice = createSlice({
-    name: "rooms",
-    initialState: {
-        selectedRoom: {}
-    }, 
-    reducers: {
-        setRoom: (state, action) => {
-            state.selectedRoom = action.payload;
-        }
+  name: 'rooms',
+  initialState: {
+    selectedRoom: {}
+  },
+  reducers: {
+    setRoom: (state, action) => {
+      state.selectedRoom = action.payload;
     }
-})
+  }
+});
 
-export const {setRoom} = roomSlice.actions;
-export default roomSlice.reducer
+export const { setRoom } = roomSlice.actions;
+export default roomSlice.reducer;
